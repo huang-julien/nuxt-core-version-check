@@ -13,10 +13,7 @@ A module to ensure nuxt has the same versions as key dependencies.
 
 ## Features
 
-<!-- Highlight some of the features your module provide here -->
-- ⛰ &nbsp;Foo
-- 🚠 &nbsp;Bar
-- 🌲 &nbsp;Baz
+- Warn you in console when key dependencies and nuxt version mismatch
 
 ## Quick Setup
 
