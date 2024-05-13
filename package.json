@@ -1,6 +1,6 @@
 {
   "name": "nuxt-core-version-check",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ensure Nuxt and key dependencies has the same version",
   "repository": "huang-julien/nuxt-core-version-check",
   "license": "MIT",
