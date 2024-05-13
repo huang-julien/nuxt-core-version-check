@@ -7,18 +7,14 @@ Find and replace all on all files (CMD+SHIFT+F):
 - Description: My new Nuxt module
 -->
 
-# My Module
+# nuxt-core-version-check
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-My new Nuxt module for doing amazing things.
-
-- [✨ &nbsp;Release Notes](/CHANGELOG.md)
-<!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/my-module?file=playground%2Fapp.vue) -->
-<!-- - [📖 &nbsp;Documentation](https://example.com) -->
+A module to ensure nuxt has the same versions as key dependencies.
 
 ## Features
 
@@ -32,10 +28,8 @@ My new Nuxt module for doing amazing things.
 Install the module to your Nuxt application with one command:
 
 ```bash
-npx nuxi module add my-module
+npx nuxi module add nuxt-core-version-check
 ```
-
-That's it! You can now use My Module in your Nuxt app ✨
 
 
 ## Contribution
@@ -45,26 +39,26 @@ That's it! You can now use My Module in your Nuxt app ✨
   
   ```bash
   # Install dependencies
-  npm install
+  pnpm install
   
   # Generate type stubs
-  npm run dev:prepare
+  pnpm run dev:prepare
   
   # Develop with the playground
-  npm run dev
+  pnpm run dev
   
   # Build the playground
-  npm run dev:build
+  pnpm run dev:build
   
   # Run ESLint
-  npm run lint
+  pnpm run lint
   
   # Run Vitest
-  npm run test
-  npm run test:watch
+  pnpm run test
+  pnpm run test:watch
   
   # Release new version
-  npm run release
+  pnpm run release
   ```
 
 </details>
