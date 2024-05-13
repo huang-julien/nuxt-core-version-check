@@ -9,11 +9,6 @@ Find and replace all on all files (CMD+SHIFT+F):
 
 # nuxt-core-version-check
 
-[![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![License][license-src]][license-href]
-[![Nuxt][nuxt-src]][nuxt-href]
-
 A module to ensure nuxt has the same versions as key dependencies.
 
 ## Features
