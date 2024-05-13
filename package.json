@@ -1,10 +1,15 @@
 {
-  "name": "my-module",
+  "name": "nuxt-core-version-check",
   "version": "1.0.0",
-  "description": "My new Nuxt module",
-  "repository": "your-org/my-module",
+  "description": "Ensure Nuxt and key dependencies has the same version",
+  "repository": "huang-julien/nuxt-core-version-check",
   "license": "MIT",
   "type": "module",
+  "keywords": [
+    "nuxt",
+    "module",
+    "nuxt-module"
+  ],
   "exports": {
     ".": {
       "types": "./dist/types.d.ts",
